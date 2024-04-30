@@ -3,7 +3,7 @@ import { HeroImg } from "../constants/images";
 
 const HeroSection = () => {
   return (
-    <div className="flex px-5 sm:px-10 py-3 md:pt-14 md:px-14">
+    <div className="flex px-5 sm:px-10 py-3 sm:p-8 md:p-14">
       <div className="w-full mt-12 sm:mt-10 md:mt-0 sm:w-6/12 md:w-5/12">
         <div className="mb-4 flex items-start justify-center sm:justify-start">
           <span className="bg-[#7AFF7F] p-3 rounded uppercase font-medium text-xs">
@@ -35,7 +35,6 @@ const HeroSection = () => {
             <path d="M0 0h24v24H0z" fill="none" />
           </svg>
         </div>
-
         <div className="relative my-4 sm:max-w-96">
           <input
             type="text"
@@ -59,13 +58,13 @@ const HeroSection = () => {
           Popular Search...
         </h1>
         <div className="flex justify-center items-center sm:justify-start gap-1">
-          <h1 className="border-[1px] border-blue-600 rounded px-1.5 text-sm text-blue-600">
+          <h1 className="border-[1px] border-blue-600 rounded px-2 py-1 hover:bg-blue-600 hover:text-white cursor-pointer text-sm text-blue-600">
             Packers & Movers
           </h1>
-          <h1 className="border-[1px] border-blue-600 rounded px-1.5 text-sm text-blue-600">
+          <h1 className="border-[1px] border-blue-600 rounded px-2 py-1 hover:bg-blue-600 hover:text-white cursor-pointer text-sm text-blue-600">
             AC Repair
           </h1>
-          <h1 className="border-[1px] border-blue-600 rounded px-1.5 text-sm text-blue-600">
+          <h1 className="border-[1px] border-blue-600 rounded px-2 py-1 hover:bg-blue-600 hover:text-white cursor-pointer text-sm text-blue-600">
             Mens hair cut
           </h1>
         </div>

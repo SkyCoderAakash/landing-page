@@ -27,7 +27,7 @@ const Contact = () => {
           <h1 className="text-center text-white text-xl mt-5">
             Chat with our sales team
           </h1>
-          <div className="flex justify-center items-center mt-1">
+          <div className="flex justify-center items-center my-3">
             <button className="border border-green-600 px-5 py-1 rounded-lg text-white bg-green-600">
               Chat with sales
             </button>

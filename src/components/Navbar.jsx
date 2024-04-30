@@ -47,8 +47,8 @@ function Navbar() {
         </div>
         <div className={`md:flex md:items-center transition-all duration-300 ${isOpen ? "block" : "hidden"}`}>
           <div className="flex gap-5 flex-col mt-4 md:flex-row md:mt-0 md:mx-1">
-            <button onClick={()=>{setIsOpen(false)}} className='border-[1.5px] border-blue-600 rounded text-blue-600 px-4 py-1'>Login</button>
-            <button onClick={()=>{setIsOpen(false)}} className='border-[1.5px] border-blue-600 bg-blue-600 text-white rounded px-4 py-1'>Signup</button>
+            <button onClick={()=>{setIsOpen(false)}} className='border-[2px] border-blue-600 rounded text-blue-600 px-4 py-1'>Login</button>
+            <button onClick={()=>{setIsOpen(false)}} className='border-[2px] border-blue-600 bg-blue-600 text-white rounded px-4 py-1'>Signup</button>
           </div>
         </div>
       </div>
